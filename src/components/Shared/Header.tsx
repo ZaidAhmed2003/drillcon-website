@@ -31,7 +31,7 @@ export default function Header() {
                   className="flex items-center gap-2 text-sm text-secondary transition-all hover:text-white"
                 >
                   {item.icon}
-                  <a href={item.link}>{item.display}</a>
+                  <Link href={item.link}>{item.display}</Link>
                 </div>
               ))}
             </div>
@@ -53,7 +53,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-
 
       {/* MAIN NAVBAR */}
       <div className="sticky top-0 z-50 bg-white shadow-lg">
