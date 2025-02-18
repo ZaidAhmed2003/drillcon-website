@@ -1,5 +1,6 @@
 import { Badge } from "@/components";
 import Image from "next/image";
+import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 
 const Services = () => {
@@ -21,9 +22,12 @@ const Services = () => {
             <h3 className="text-3xl font-bold font-montserrat mb-2">
               Drilling Services
             </h3>
-            <div className="p-5 rounded-full bg-primary text-secondary">
+            <Link
+              href={"services/drilling"}
+              className="p-5 rounded-full bg-primary text-secondary"
+            >
               <MdArrowOutward className="h-5 w-5" />
-            </div>
+            </Link>
           </div>
           <p className="tracking-wider leading-[27.5px] mb-4">
             We provide expert drilling solutions for geotechnical assessments,
@@ -45,9 +49,12 @@ const Services = () => {
             <h3 className="text-3xl font-bold font-montserrat mb-2">
               Construction Services
             </h3>
-            <div className="p-5 rounded-full bg-primary text-secondary">
+            <Link
+              href={"services/construction"}
+              className="p-5 rounded-full bg-primary text-secondary"
+            >
               <MdArrowOutward className="h-5 w-5" />
-            </div>
+            </Link>
           </div>
           <p className="tracking-wider leading-[27.5px] mb-4">
             From residential to commercial and industrial projects, we handle
