@@ -7,10 +7,10 @@ export const navLinks = [
   { name: "About", path: "/about" },
   {
     name: "Services",
-    path: "/services/drilling",
+    path: "/services/drilling-service",
     dropdown: [
-      { name: "Drilling Service", path: "/services/drilling" },
-      { name: "Construction Service", path: "/services/construction" },
+      { name: "Drilling Service", path: "/services/drilling-service" },
+      { name: "Construction Service", path: "/services/construction-service" },
     ],
   },
   { name: "Our Projects", path: "/#projects" },

@@ -26,7 +26,7 @@ const About = () => {
                 DRILLCON Your Trusted Partner in Drilling & Construction
                 Solutions.
               </h2>
-              <p className="tracking-wider leading-[27.5px] ">
+              <p className="tracking-wider leading-[27.5px]">
                 At DRILLCON, we combine innovative engineering, state-of-the-art
                 technology, and a dedicated workforce to deliver top-tier
                 drilling and construction solutions. With over eight years of
