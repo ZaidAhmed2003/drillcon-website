@@ -1,3 +1,13 @@
 export { default as Header } from "@/components/Shared/Header";
 export { default as Footer } from "@/components/Shared/Footer";
 export { default as Button } from "@/components/Shared/Button";
+export { default as Badge } from "@/components/Shared/Badge";
+export { default as Contact } from "@/components/Shared/Contact";
+export { default as ImageOverlay } from "@/components/Shared/ImageOverlay";
+export { default as HeroSection } from "@/components/Home/Hero";
+export { default as AboutSection } from "@/components/Home/About";
+export { default as ServicesSection } from "@/components/Home/Services";
+export { default as WhyChooseUsSection } from "@/components/Home/WhyChooseUs";
+export { default as MilestonesSection } from "@/components/Home/Milestones";
+export { default as ProjectsSection } from "@/components/Home/Projects";
+export { default as OurClientsSection } from "@/components/Home/OurClients";

@@ -1,3 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  /* Primary Colors */
+  --color-primary: #febd18;
+  --color-primary-dark: #e6a815; /* Slightly darker shade */
+  --color-primary-light: #ffcc40; /* Slightly lighter shade */
+
+  /* Secondary Colors */
+  --color-secondary: #231f20;
+
+  /* Background & Foreground */
+  --color-background: #f8f7fa;
+  --color-foreground: #171717;
+
+  /* Fonts */
+  --font-poppins: "Poppins", serif;
+  --font-montserrat: "Montserrat", serif;
+
+  /* Shadows */
+}
+
+body {
+  font-family: var(--font-poppins);
+}
