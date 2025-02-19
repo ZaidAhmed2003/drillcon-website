@@ -4,7 +4,7 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      className="bg-primary hover:bg-primary-dark fixed right-8 bottom-8 z-50 rounded-full p-4 shadow-lg transition-colors duration-300"
+      className="bg-primary hover:bg-primary-dark hover:text-secondary fixed right-8 bottom-8 z-50 cursor-pointer rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110"
       aria-label="Back to top"
     >
       <svg

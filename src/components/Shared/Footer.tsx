@@ -33,7 +33,7 @@ const Footer = () => {
                   href={socialItem.link}
                   key={index}
                   target="_blank"
-                  className="hover:text-primary bg-primary rounded-full p-3 transition-all duration-300 hover:scale-110"
+                  className="hover:text-secondary bg-primary rounded-full p-3 transition-all duration-300 hover:scale-110"
                 >
                   {socialItem.icon}
                 </Link>
