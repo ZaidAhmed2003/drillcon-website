@@ -1,11 +1,35 @@
 import { Contact } from "@/components";
-import { aboutContent } from "@/constants/content";
-import { FaHandshake, FaTools } from "react-icons/fa";
+import Image from "next/image";
+import { FaBullseye, FaEye, FaHandshake, FaTools } from "react-icons/fa";
 
 const Page = () => {
   return (
     <>
-      <section className="container mx-auto px-4 my-36">
+      {/* Hero Section */}
+      <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/home/about-image.jpeg"
+            alt="Drillcon About"
+            layout="fill"
+            objectFit="cover"
+            className="transform scale-105 hover:scale-100 transition-transform duration-1000"
+          />
+        </div>
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <div className="text-center px-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in">
+              Building the Future
+            </h1>
+            <p className="text-lg md:text-xl text-white max-w-2xl mx-auto animate-fade-in-up">
+              With innovation, expertise, and commitment, we shape the world
+              around us
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section className="container mx-auto px-4 mt-24">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-8">
             Who Are We?
@@ -53,42 +77,54 @@ const Page = () => {
         </div>
       </section>
 
-      <section className="container mx-auto px-4 my-36">
+      <section className="container mx-auto px-4 my-8">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6  py-10  border border-gray-200 rounded-lg">
-              <div className="flex justify-center text-4xl text-primary mb-4">
-                {aboutContent.mission.icon}
+              <div className="flex justify-center text-center mb-2">
+                <FaBullseye className="w-8 h-8 text-primary" />
               </div>
               <h2 className="text-2xl font-bold mb-4 font-montserrat text-secondary ">
-                {aboutContent.mission.title}
+                Our Mission
               </h2>
               <p className="text-gray-600 tracking-wide leading-relaxed">
-                {aboutContent.mission.description}
+                Our mission is to provide reliable, high-quality construction
+                and drilling services that exceed client expectations while
+                maintaining the highest standards of safety and environmental
+                responsibility. We pride ourselves on our reputation for
+                delivering projects that stand the test of time and contribute
+                to the growth and development of our community.
               </p>
             </div>
 
             <div className="text-center p-6 py-10 border border-gray-200 rounded-lg">
-              <div className="flex justify-center text-4xl text-primary mb-4">
-                {aboutContent.commitment.icon}
+              <div className="flex justify-center text-center mb-2">
+                <FaHandshake className="w-8 h-8 text-primary" />
               </div>
               <h2 className="text-2xl font-bold mb-4 font-montserrat text-secondary ">
-                {aboutContent.commitment.title}
+                Our Commitment
               </h2>
               <p className="text-gray-600 tracking-wide leading-relaxed">
-                {aboutContent.commitment.description}
+                we are unwavering in our commitment to excellence, safety, and
+                integrity in every aspect of our work. Whether it's a
+                small-scale project or a large, complex drilling operation, we
+                approach every task with the same dedication to
+                quality and precision.
               </p>
             </div>
 
             <div className="text-center p-6  py-10  border border-gray-200 rounded-lg">
-              <div className="flex justify-center text-4xl text-primary mb-4">
-                {aboutContent.vision.icon}
+              <div className="flex justify-center text-center mb-2">
+                <FaEye className="w-8 h-8 text-primary" />
               </div>
               <h2 className="text-2xl font-bold mb-4 font-montserrat text-secondary ">
-                {aboutContent.vision.title}
+                Our Vision
               </h2>
               <p className="text-gray-600 tracking-wide leading-relaxed">
-                {aboutContent.vision.description}
+                We envision a future where every project we undertake
+                contributes to shaping a better, more efficient world—one where
+                safety, environmental responsibility, and customer satisfaction
+                are at the forefront of everything we do.
               </p>
             </div>
           </div>

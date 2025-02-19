@@ -9,8 +9,8 @@ export const navLinks = [
     name: "Services",
     path: "/services/drilling",
     dropdown: [
-      { name: "Drilling Service", path: "/services/drilling" },
-      { name: "Construction Service", path: "/services/construction" },
+      { name: "Drilling Services", path: "/services/drilling" },
+      { name: "Construction Services", path: "/services/construction" },
     ],
   },
   { name: "Our Projects", path: "/#projects" },
