@@ -1,5 +1,11 @@
+import { Contact } from "@/components";
+
 const page = () => {
-  return <div>Drilling Service Page</div>;
+  return (
+    <>
+      <Contact />
+    </>
+  );
 };
 
 export default page;

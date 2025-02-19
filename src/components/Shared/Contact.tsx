@@ -3,7 +3,7 @@ import { Badge } from "@/components";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto px-4 my-44">
+    <div className="container mx-auto px-4 my-44" id="contact">
       <div className="flex flex-col items-center justify-center mb-14">
         <Badge text="Contact" />
         <h2 className="font-montserrat text-2xl font-bold text-secondary md:text-3xl lg:text-2xl xl:text-5xl mb-4">
