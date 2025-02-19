@@ -18,7 +18,7 @@ const Page = () => {
         </div>
         <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <div className="px-4 text-center">
-            <h1 className="animate-fade-in mb-4 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
               Construction Services
             </h1>
           </div>
@@ -94,6 +94,7 @@ const Page = () => {
             <Image
               src="/images/construction/school-image.jpg"
               alt="School Construction"
+              className="rounded-lg"
               width={800}
               height={800}
             />
@@ -104,6 +105,7 @@ const Page = () => {
               src="/images/construction/mosque-image.webp"
               alt="Mosque Construction"
               width={800}
+              className="rounded-lg"
               height={800}
             />
             <div>
@@ -161,6 +163,7 @@ const Page = () => {
             <Image
               src="/images/construction/renovation-image.jpg"
               alt="Renovation Services"
+              className="rounded-lg"
               width={800}
               height={800}
             />
