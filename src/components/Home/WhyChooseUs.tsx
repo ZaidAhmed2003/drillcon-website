@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <h2 className="font-montserrat text-2xl font-bold text-secondary md:text-3xl lg:text-2xl xl:text-5xl mb-4">
           Why Choose Us
         </h2>
-        <p className="tracking-wider leading-[27.5px] max-w-4xl text-center">
+        <p className="tracking-wider leading-[27.5px] max-w-4xl text-center text-gray-600">
           Our commitment to quality, safety, and innovation makes us the trusted
           choice in drilling and construction.
         </p>
@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
               <FaClock />
             </div>
             <h4 className="mb-5 text-xl font-bold">8+ Years Of Experience</h4>
-            <p className="tracking-wider leading-[27.5px]">
+            <p className="tracking-wider leading-[27.5px] text-gray-600">
               With 8 years of experience in the construction and drilling
               industry, we have built a solid reputation for delivering projects
               on time and within budget from residential to large-scale
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
               <FaWrench />
             </div>
             <h4 className="mb-5 text-xl font-bold">Customized Solutions</h4>
-            <p className="tracking-wider leading-[27.5px]">
+            <p className="tracking-wider leading-[27.5px] text-gray-600">
               Every project is unique, and we pride ourselves on offering
               tailored solutions that meet your specific needs. Whether it's a
               small or large commercial project or any kind of water project, we
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
             <h4 className="mb-5 text-xl font-bold">
               Transparent Communication
             </h4>
-            <p className="tracking-wider leading-[27.5px]">
+            <p className="tracking-wider leading-[27.5px] text-gray-600">
               We believe in open and honest communication throughout the entire
               process. From initial consultation to project completion, we keep
               you informed and involved every step of the way.
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
               <FaTrophy />
             </div>
             <h4 className="mb-5 text-xl font-bold">Proven Track Record</h4>
-            <p className="tracking-wider leading-[27.5px]">
+            <p className="tracking-wider leading-[27.5px] text-gray-600">
               Our portfolio showcases a wide range of successful projects,
               backed by positive client testimonials and repeat business. We
               consistently deliver quality results that exceed expectations.

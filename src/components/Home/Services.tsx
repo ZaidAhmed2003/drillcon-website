@@ -11,7 +11,7 @@ const Services = () => {
         <h2 className="font-montserrat text-2xl font-bold text-secondary md:text-3xl lg:text-2xl xl:text-5xl mb-4">
           Our Services
         </h2>
-        <p className="tracking-wider leading-[27.5px] max-w-4xl text-center">
+        <p className="tracking-wider leading-[27.5px] max-w-4xl text-center text-gray-600">
           Welcome to our comprehensive service catalog, where we cater to
           diverse needs with top-notch expertise and unwavering commitment.
         </p>
@@ -29,7 +29,7 @@ const Services = () => {
               <MdArrowOutward className="h-5 w-5" />
             </Link>
           </div>
-          <p className="tracking-wider leading-[27.5px] mb-4">
+          <p className="tracking-wider leading-[27.5px] mb-4 text-gray-600">
             We provide expert drilling solutions for geotechnical assessments,
             water wells, resource exploration, and stable foundations. From
             retrieving core samples for mineral and oil discovery to ensuring
@@ -56,7 +56,7 @@ const Services = () => {
               <MdArrowOutward className="h-5 w-5" />
             </Link>
           </div>
-          <p className="tracking-wider leading-[27.5px] mb-4">
+          <p className="tracking-wider leading-[27.5px] mb-4 text-gray-600">
             From residential to commercial and industrial projects, we handle
             every phase of construction with expertise. Our services span
             initial design, site preparation, and structural execution, ensuring
