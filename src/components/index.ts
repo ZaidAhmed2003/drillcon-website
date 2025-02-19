@@ -3,6 +3,7 @@ export { default as Footer } from "@/components/Shared/Footer";
 export { default as Button } from "@/components/Shared/Button";
 export { default as Badge } from "@/components/Shared/Badge";
 export { default as Contact } from "@/components/Shared/Contact";
+export { default as ScrollTotop } from "@/components/Shared/ScrollToTop";
 export { default as ImageOverlay } from "@/components/Shared/ImageOverlay";
 export { default as HeroSection } from "@/components/Home/Hero";
 export { default as AboutSection } from "@/components/Home/About";

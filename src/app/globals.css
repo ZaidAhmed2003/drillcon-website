@@ -1,10 +1,17 @@
 @import "tailwindcss";
 
+:root {
+  --secondary-dark: #1a365d;
+}
+
 @theme {
   /* Primary Colors */
   --color-primary: #febd18;
   --color-primary-dark: #e6a815; /* Slightly darker shade */
   --color-primary-light: #ffcc40; /* Slightly lighter shade */
+  --color-secondary-dark: var(--secondary-dark);
+  --color-secondary: #1a1a1a;
+  --color-secondary-dark: #0d0d0d;
 
   /* Secondary Colors */
   --color-secondary: #231f20;
@@ -20,8 +27,36 @@
   /* Shadows */
 }
 
+/* Smooth scrolling for back-to-top button */
 html {
   scroll-behavior: smooth;
+}
+
+/* Footer specific styles */
+.footer-link {
+  transition: color var(--transition-duration) ease;
+}
+
+.footer-link:hover {
+  color: var(--color-primary);
+}
+
+.social-icon {
+  transition: all var(--transition-duration) ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: var(--color-secondary);
+}
+
+.back-to-top {
+  transition: background-color var(--transition-duration) ease;
+  box-shadow: 0 2px 8px var(--color-shadow-dark);
+}
+
+.back-to-top:hover {
+  background-color: var(--color-primary-dark);
 }
 
 body {
