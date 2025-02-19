@@ -1,4 +1,4 @@
-import { FaHardHat } from "react-icons/fa";
+import { FaClock, FaWrench, FaComments, FaTrophy } from "react-icons/fa";
 import { Badge } from "@/components";
 
 const WhyChooseUs = () => {
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-3xl border-2 border-primary p-5 text-center">
             <div className="mb-5 inline-block items-center justify-center rounded-full bg-primary p-4 text-[35px]">
-              <FaHardHat />
+              <FaClock />
             </div>
             <h4 className="mb-5 text-xl font-bold">8+ Years Of Experience</h4>
             <p className="tracking-wider leading-[27.5px]">
@@ -30,19 +30,19 @@ const WhyChooseUs = () => {
           </div>
           <div className="rounded-3xl border-2 border-primary p-5 text-center">
             <div className="mb-5 inline-block items-center justify-center rounded-full bg-primary p-4 text-[35px]">
-              <FaHardHat />
+              <FaWrench />
             </div>
             <h4 className="mb-5 text-xl font-bold">Customized Solutions</h4>
             <p className="tracking-wider leading-[27.5px]">
               Every project is unique, and we pride ourselves on offering
-              tailored solutions that meet your specific needs. Whether it’s a
+              tailored solutions that meet your specific needs. Whether it's a
               small or large commercial project or any kind of water project, we
               adapt our services to suit your requirements.
             </p>
           </div>
           <div className="rounded-3xl border-2 border-primary p-5 text-center">
             <div className="mb-5 inline-block items-center justify-center rounded-full bg-primary p-4 text-[35px]">
-              <FaHardHat />
+              <FaComments />
             </div>
             <h4 className="mb-5 text-xl font-bold">
               Transparent Communication
@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="rounded-3xl border-2 border-primary p-5 text-center">
             <div className="mb-5 inline-block items-center justify-center rounded-full bg-primary p-4 text-[35px]">
-              <FaHardHat />
+              <FaTrophy />
             </div>
             <h4 className="mb-5 text-xl font-bold">Proven Track Record</h4>
             <p className="tracking-wider leading-[27.5px]">

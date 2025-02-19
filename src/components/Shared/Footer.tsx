@@ -22,23 +22,27 @@ const Footer = () => {
             We are leaders in drilling and construction, committed to excellence
             across all projects. We embrace challenges and deliver results.
           </p>
-
-          <div className="flex items-center gap-4 text-xl">
-            {social.map((socialItem, index) => (
-              <Link
-                href={socialItem.link}
-                key={index}
-                target="_blank"
-                className="transition duration-300 hover:text-primary"
-              >
-                {socialItem.icon}
-              </Link>
-            ))}
+          <div className="">
+            <h4 className="text-xl font-semibold md:mb-4 md:text-lg uppercase mb-6">
+              Follow Us
+            </h4>
+            <div className="flex items-center gap-4 text-xl">
+              {social.map((socialItem, index) => (
+                <Link
+                  href={socialItem.link}
+                  key={index}
+                  target="_blank"
+                  className="transition duration-300 hover:text-primary hover:bg-secondary bg-primary p-2 "
+                >
+                  {socialItem.icon}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
         <div className="lg:col-span-1">
           <h4 className="mb-6 text-xl font-semibold md:mb-4 md:text-lg uppercase">
-            Pages
+            Quick Links
           </h4>
           <ul className="flex flex-col gap-2">
             {navLinks.map((link, index) => (
@@ -76,7 +80,7 @@ const Footer = () => {
         </div>
         <div className="lg:col-span-1">
           <h4 className="mb-6 text-xl font-semibold md:mb-4 md:text-lg uppercase">
-            Contact Us
+            Contact
           </h4>
           <div className="flex flex-col items-center md:items-start">
             <div className="mb-4 flex items-center justify-center gap-4">
