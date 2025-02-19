@@ -94,7 +94,7 @@ const Page = () => {
               <Image
                 src="/images/construction/school-image.jpg"
                 alt="School Construction"
-                width={750}
+                width={800}
                 height={500}
               />
             </div>
@@ -102,9 +102,9 @@ const Page = () => {
 
           <div className="grid gap-8 md:grid-cols-2">
             <Image
-              src="/images/construction/mosque-image.jpg"
+              src="/images/construction/mosque-image.webp"
               alt="Mosque Construction"
-              width={500}
+              width={800}
               height={500}
             />
             <div>
@@ -160,7 +160,7 @@ const Page = () => {
             </div>
 
             <Image
-              src="/images/home/solar-water-project.jpg"
+              src="/images/construction/renovation-image.jpg"
               alt="Renovation Services"
               width={500}
               height={500}
