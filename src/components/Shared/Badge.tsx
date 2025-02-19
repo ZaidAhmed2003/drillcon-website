@@ -5,8 +5,8 @@ interface BadgeProps {
 const Badge = ({ text = "Badge" }: BadgeProps) => {
   return (
     <div className="flex items-center gap-1">
-      <div className="w-4 h-[3px] rounded-sm bg-secondary"></div>
-      <div className="text-primary font-semibold text-sm lg:text-base">
+      <div className="bg-secondary h-[3px] w-4 rounded-sm"></div>
+      <div className="text-primary text-sm font-semibold lg:text-base">
         {text}
       </div>
     </div>

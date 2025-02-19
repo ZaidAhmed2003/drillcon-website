@@ -4,11 +4,11 @@ import { MdArrowOutward } from "react-icons/md";
 
 const About = () => {
   return (
-    <section className="container px-4 mx-auto my-44">
+    <section className="container mx-auto my-44 px-4">
       {/* ABOUT */}
       <div className="grid justify-center gap-6 px-2 md:px-0 lg:grid-cols-2">
         {/* LEFT SIDE */}
-        <div className="xl:p-5 border-2 border-primary">
+        <div className="border-primary border-2 xl:p-5">
           <Image
             className="rounded-sm shadow-lg"
             src="/images/home/about-image.jpeg"
@@ -22,11 +22,11 @@ const About = () => {
           <div className="mb-5 flex flex-col items-center gap-2 md:mb-4 lg:mb-4 lg:items-start lg:gap-1">
             <Badge text="About Us" />
             <div className="flex flex-col gap-4 md:gap-4">
-              <h2 className="font-montserrat text-2xl font-bold text-secondary md:text-3xl lg:text-2xl xl:text-5xl">
+              <h2 className="font-montserrat text-secondary text-4xl font-bold md:text-5xl xl:text-5xl">
                 DRILLCON Your Trusted Partner in Drilling & Construction
                 Solutions.
               </h2>
-              <p className="tracking-wider leading-[27.5px] text-gray-600">
+              <p className="leading-[27.5px] tracking-wider text-gray-600">
                 At DRILLCON, we combine innovative engineering, state-of-the-art
                 technology, and a dedicated workforce to deliver top-tier
                 drilling and construction solutions. With over eight years of

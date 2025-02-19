@@ -8,7 +8,7 @@ const Services = () => {
     <section className="container mx-auto px-4 my-44">
       <div className="flex flex-col items-center justify-center">
         <Badge text="Services" />
-        <h2 className="font-montserrat text-2xl font-bold text-secondary md:text-3xl lg:text-2xl xl:text-5xl mb-4">
+        <h2 className="font-montserrat  font-bold text-secondary  text-4xl md:text-5xl mb-4">
           Our Services
         </h2>
         <p className="tracking-wider leading-[27.5px] max-w-4xl text-center text-gray-600">
@@ -19,7 +19,7 @@ const Services = () => {
       <div className="grid lg:grid-cols-2 gap-10 mt-20">
         <div className="border-2 border-primary p-6 pt-10 rounded-4xl ">
           <div className="flex justify-between items-center">
-            <h3 className="text-3xl font-bold font-montserrat mb-2">
+            <h3 className=" text-2xl md:text-3xl font-bold font-montserrat mb-2">
               Drilling Services
             </h3>
             <Link
@@ -46,7 +46,7 @@ const Services = () => {
         </div>
         <div className="border-2 border-primary p-6 pt-10 rounded-4xl ">
           <div className="flex justify-between items-center">
-            <h3 className="text-3xl font-bold font-montserrat mb-2">
+            <h3 className="text-2xl md:text-3xl font-bold font-montserrat mb-2">
               Construction Services
             </h3>
             <Link

@@ -38,7 +38,7 @@ const OurClients = () => {
     <section className="my-44 ">
       <div className="flex flex-col items-center gap-2">
         <Badge text="Our Clients" />
-        <h2 className="font-montserrat text-2xl font-bold text-secondary md:text-3xl lg:text-2xl xl:text-5xl mb-4">
+        <h2 className="font-montserrat font-bold text-secondary text-4xl md:text-5xl mb-4">
           Our Clients
         </h2>
       </div>

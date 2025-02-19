@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative">
       {/* Hero Background */}
       <div
-        className="flex flex-col items-center justify-center bg-center bg-no-repeat h-full"
+        className="flex h-full flex-col items-center justify-center bg-center bg-no-repeat"
         style={{
           backgroundImage: `url("/images/home/hero-image.jpeg")`,
           backgroundSize: "cover",
@@ -16,8 +16,8 @@ const Hero = () => {
         <ImageOverlay />
         {/* Centered Text */}
         <div className="relative z-10 px-4 text-center text-white sm:px-8">
-          <h1 className="text-4xl font-bold md:text-5xl lg:text-6xl mb-2">
-            Welcome to <span className="uppercase text-primary">Drillcon,</span>
+          <h1 className="mb-2 text-4xl font-bold md:text-5xl lg:text-6xl">
+            Welcome to <span className="text-primary uppercase">Drillcon,</span>
           </h1>
           <h3 className="mb-4 text-2xl font-semibold md:text-3xl">
             Your Trusted Partner in Drilling and Construction Solutions
