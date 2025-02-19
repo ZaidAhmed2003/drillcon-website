@@ -13,23 +13,24 @@ const Page = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative">
-        <div
-          className="flex flex-col justify-center bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url(${heroImage.src})`,
-            height: "350px",
-            backgroundSize: "cover",
-          }}
-        >
-          <ImageOverlay />
-          <div className="relative z-10 container mx-auto px-4 text-white sm:px-8">
-            <h3 className="mb-4 text-2xl font-bold md:text-5xl">
+      <div className="relative h-[400px] w-full overflow-hidden md:h-[500px]">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/home/about-image.jpeg"
+            alt="Drillcon Drilling Services"
+            layout="fill"
+            objectFit="cover"
+            className="scale-105 transform transition-transform duration-1000 hover:scale-100"
+          />
+        </div>
+        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+          <div className="px-4 text-center">
+            <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
               Drilling Services
-            </h3>
+            </h1>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* Small Services Section */}
       <div className="container mx-auto my-36 px-4">

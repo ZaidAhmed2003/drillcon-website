@@ -1,6 +1,12 @@
 import { Contact } from "@/components";
 import Image from "next/image";
-import { FaBuilding, FaTools, FaHardHat, FaCheckCircle } from "react-icons/fa";
+import {
+  FaBuilding,
+  FaTools,
+  FaHardHat,
+  FaCheckCircle,
+  FaMedkit,
+} from "react-icons/fa";
 
 const Page = () => {
   return (
@@ -52,6 +58,16 @@ const Page = () => {
             <p className="leading-[27.5px] tracking-wider text-gray-600">
               We offer complete structural overhauls and modernization services
               that incorporate modern technologies and amenities.
+            </p>
+          </div>
+
+          <div className="rounded-lg bg-white p-6 shadow-md">
+            <FaMedkit className="text-primary mb-4 text-4xl" />
+            <h3 className="mb-2 text-xl font-semibold">Clinic Construction</h3>
+            <p className="leading-[27.5px] tracking-wider text-gray-600">
+              We build modern healthcare facilities designed to provide optimal
+              patient care with efficient workflows and advanced medical
+              technology.
             </p>
           </div>
         </div>
@@ -167,6 +183,40 @@ const Page = () => {
               width={800}
               height={800}
             />
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2"> 
+            <Image
+              src="/images/construction/clinic-full-image.jpg"
+              alt="Clinic Construction"
+              className="rounded-lg"
+              width={800}
+              height={800}
+            />
+            <div>
+              <h3 className="mb-4 text-3xl font-bold">Clinic Construction</h3>
+              <p className="mb-6 leading-[27.5px] tracking-wider text-gray-600">
+                We specialize in constructing modern healthcare facilities that
+                meet the highest standards of medical care. Our clinic designs
+                focus on creating efficient workflows, patient comfort, and
+                infection control. We understand that healthcare facilities
+                require specialized construction to support medical operations
+                and patient care.
+              </p>
+              <p className="mb-6 leading-[27.5px] tracking-wider text-gray-600">
+                Our clinic construction services include:
+              </p>
+              <ul className="mb-6 list-disc space-y-2 pl-6 text-gray-600">
+                <li>Custom-designed medical facilities</li>
+                <li>Infection control compliant construction</li>
+                <li>Medical gas and plumbing systems installation</li>
+                <li>Specialized electrical systems for medical equipment</li>
+                <li>Accessible design for patients with disabilities</li>
+                <li>Emergency power systems and backup generators</li>
+                <li>Sterilization and clean room facilities</li>
+              </ul>
+            </div>
+           
           </div>
         </div>
       </div>
