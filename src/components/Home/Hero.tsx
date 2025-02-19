@@ -22,7 +22,7 @@ const Hero = () => {
           <h3 className="mb-4 text-2xl font-semibold md:text-3xl">
             Your Trusted Partner in Drilling and Construction Solutions
           </h3>
-          <p className="mx-auto max-w-3xl">
+          <p className="mx-auto max-w-3xl text-lg leading-relaxed">
             At DRILLCON, we offer expert drilling and construction services.
             Backed by years of experience and advanced technology, we ensure
             efficient, safe, and timely project execution tailored to your
