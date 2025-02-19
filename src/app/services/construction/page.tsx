@@ -90,14 +90,13 @@ const Page = () => {
                 <li>Outdoor learning environments and recreational areas</li>
               </ul>
             </div>
-            <div className="rounded-lg p-5">
-              <Image
-                src="/images/construction/school-image.jpg"
-                alt="School Construction"
-                width={800}
-                height={500}
-              />
-            </div>
+
+            <Image
+              src="/images/construction/school-image.jpg"
+              alt="School Construction"
+              width={800}
+              height={800}
+            />
           </div>
 
           <div className="grid gap-8 md:grid-cols-2">
@@ -105,7 +104,7 @@ const Page = () => {
               src="/images/construction/mosque-image.webp"
               alt="Mosque Construction"
               width={800}
-              height={500}
+              height={800}
             />
             <div>
               <h3 className="mb-4 text-3xl font-bold">Mosque Construction</h3>
@@ -162,8 +161,8 @@ const Page = () => {
             <Image
               src="/images/construction/renovation-image.jpg"
               alt="Renovation Services"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
             />
           </div>
         </div>
