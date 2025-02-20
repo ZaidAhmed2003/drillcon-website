@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Drillcon Website
 
-## Getting Started
+## Overview
+The Drillcon Website is a modern web application built with Next.js, React, and Tailwind CSS. It serves as the official online presence for Drillcon, a company specializing in drilling and construction services. The website showcases the company's services, projects, and client portfolio.
 
-First, run the development server:
+## Features
+- Responsive design for all devices
+- Modern UI/UX with Tailwind CSS
+- Dynamic content rendering with Next.js
+- Interactive components with React
+- Optimized performance and SEO
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/drillcon-website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd drillcon-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Builds the application for production
+- `npm start` - Starts the production server
+- `npm run lint` - Runs the linter
+
+## Project Structure
+
+```
+drillcon-website/
+├── public/              # Static assets
+│   ├── images/           # Image files
+│   └── ...
+├── src/                  # Source code
+│   ├── app/              # Next.js pages
+│   ├── components/       # React components
+│   ├── constants/        # Constant values
+│   └── ...
+├── package.json          # Project dependencies
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Main Dependencies
+- Next.js (v15.1.7) - React framework
+- React (v19.0.0) - JavaScript library
+- Tailwind CSS (v4.0.0) - Utility-first CSS framework
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Additional Libraries
+- React Icons - Icon library
+- React CountUp - Number animation
+- React Fast Marquee - Scrolling text
+- React Intersection Observer - Scroll animations
 
-## Learn More
+## Development Guidelines
 
-To learn more about Next.js, take a look at the following resources:
+1. Follow the existing code style and structure
+2. Create new components in the `src/components` directory
+3. Add new pages in the `src/app` directory
+4. Run `npm run lint` before committing code
+5. Write clear and concise commit messages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+This project is licensed under the MIT License.
