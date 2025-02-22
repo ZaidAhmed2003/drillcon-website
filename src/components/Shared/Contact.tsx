@@ -1,5 +1,6 @@
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { Badge } from "@/components";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -14,12 +15,22 @@ const Contact = () => {
         <div className="flex flex-col items-center rounded-lg bg-gray-50 p-10 text-center shadow-sm">
           <FaEnvelope className="text-primary mb-4 h-8 w-8" />
           <h3 className="mb-2 text-xl font-semibold">Email</h3>
-          <p className="text-gray-600">drillcon20@gmail.com</p>
+          <Link
+            href="mailto:drillcon20@gmail.com"
+            className="cursor-pointer text-gray-600"
+          >
+            drillcon20@gmail.com
+          </Link>
         </div>
         <div className="flex flex-col items-center rounded-lg bg-gray-50 p-10 text-center shadow-sm">
           <FaPhoneAlt className="text-primary mb-4 h-8 w-8" />
           <h3 className="mb-2 text-xl font-semibold">Phone</h3>
-          <p className="text-gray-600">+92 333 1777213</p>
+          <Link
+            href="tel:+923331777213"
+            className="cursor-pointer text-gray-600"
+          >
+            +92 333 1777213
+          </Link>
         </div>
         <div className="flex flex-col items-center rounded-lg bg-gray-50 p-10 text-center shadow-sm">
           <FaMapMarkerAlt className="text-primary mb-4 h-8 w-8" />
