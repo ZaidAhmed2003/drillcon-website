@@ -18,13 +18,15 @@ const Page = () => {
         </div>
         <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <div className="px-4 text-center">
-            <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-4 text-4xl font-bold text-white uppercase md:text-5xl lg:text-6xl">
               Building the Future
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-white md:text-xl">
-              With innovation, expertise, and commitment, we shape the world
-              around us
+              With innovation, expertise, and commitment
             </p>
+            <span className="text-lg text-white uppercase md:text-xl">
+              we shape the world around us
+            </span>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="flex flex-col items-center rounded-lg bg-gray-50 p-10 text-center shadow-sm">
           <FaEnvelope className="text-primary mb-4 h-8 w-8" />
           <h3 className="mb-2 text-xl font-semibold">Email</h3>
-          <p className="text-gray-600">info@drillcon.com</p>
+          <p className="text-gray-600">drillcon20@gmail.com</p>
         </div>
         <div className="flex flex-col items-center rounded-lg bg-gray-50 p-10 text-center shadow-sm">
           <FaPhoneAlt className="text-primary mb-4 h-8 w-8" />
